@@ -37,7 +37,7 @@ export const ModalPedidos = ({ isOpen, onClose }: any) => {
   useEffect(() => {
     if (!isSuccess) return;
     onClose();
-  }, [isSuccess, onClose]);
+  }, [isSuccess]);
 
   return (
     <>
